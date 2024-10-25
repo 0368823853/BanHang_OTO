@@ -1,0 +1,22 @@
+
+form{
+    border: 1px solid red;
+    padding: 20px;
+    box-shadow: 5px 5px 10px black;
+    z-index: 1000;
+}
+.row{
+    /* padding: 50px; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: scroll;
+    
+}
+@media(max-width:1400px){
+    form{
+        width: 800px;
+        height: 400px;
+    }
+}
